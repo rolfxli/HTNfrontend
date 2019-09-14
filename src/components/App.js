@@ -1,16 +1,15 @@
 import React from 'react';
 import logo from '../logo.svg';
 import './App.css';
+import Home from './home';
+import Header from './header';
+
 
 function App() {
   return (
     <div className="App">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-        >
-        </a>
+      <Header />
+      <Home />
     </div>
   );
 }
